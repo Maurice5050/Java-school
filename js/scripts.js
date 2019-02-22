@@ -1,17 +1,24 @@
-var add = function(number1, number2) {
-  return number1 + number2;
-};
-var subtract = function(number1, number2) {
-  return number1 - number2;
-};
-var multiply = function(number1, number2) {
-  return number1 * number2;
-};
-var divide = function(number1, number2) {
-  return number1 / number2;
-};
-And the code currently responsible for gathering user input should resemble this:
-
-var number1 = parseInt(prompt("Enter a number:"));
-var number2 = parseInt(prompt("Enter another number:"));
-alert(add(number1, number2));
+$(document).ready(function(){
+  $("#button").click(function(){
+    var q1 = parseInt($("input:radio[name=gender]:checked")).val();
+    var("#button").click(function())
+  });
+});
+$(document).ready(function(){
+var("#button").click(function(){
+ var q2 = parseInt($("input:radio[name=gender]:checked")).val();
+});
+});
+$(document).ready(function(){
+  $("#button").click(function(){
+    var q3 = parseInt($("input:radio[name=gender]:checked")).val();
+    var("#button").click(function());
+  });
+});
+$(document).ready(function({
+$("#button").click(function(){
+  var question = parseTnt($("input[name= question1']:checked". val());
+  var total = question1 + question2 + question3;
+  $(document).getElementById('output').inneHTML = "you have scored" = total;
+});
+});
